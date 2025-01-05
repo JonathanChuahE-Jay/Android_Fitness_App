@@ -4,6 +4,20 @@
     android:orientation="vertical"
     android:padding="16dp">
 
+    <ImageView
+        android:id="@+id/imgProfilePicture"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:src="@drawable/nav_profile" />
+
+    <Button
+        android:id="@+id/btnUploadProfilePic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Profile Picture" />
+
+    
     <EditText
         android:id="@+id/edtNewUsername"
         android:layout_width="match_parent"
@@ -36,19 +50,6 @@
         android:layout_height="wrap_content"
         android:textColor="#FF0000"
         android:visibility="gone" />
-
-    <ImageView
-        android:id="@+id/imgProfilePicture"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_gravity="center"
-        android:src="@drawable/nav_profile" />
-
-    <Button
-        android:id="@+id/btnUploadProfilePic"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Upload Profile Picture" />
 
     <Button
         android:id="@+id/btnRegister"
