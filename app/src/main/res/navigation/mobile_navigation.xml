@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.quickfeet.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.quickfeet.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_bmi_calculator"
+        android:name="com.example.quickfeet.ui.bmi.BmiFragment"
+        android:label="BMI Calculator"
+        tools:layout="@layout/fragment_bmi" />
+
+    <fragment
+        android:id="@+id/nav_progress_tracker"
+        android:name="com.example.quickfeet.ui.progress.ProgressFragment"
+        android:label="Progress Tracker"
+        tools:layout="@layout/fragment_progress" />
+
+    <fragment
+        android:id="@+id/nav_running_tracker"
+        android:name="com.example.quickfeet.ui.running.RunningFragment"
+        android:label="Running Tracker"
+        tools:layout="@layout/fragment_running" />
+
+    <fragment
+        android:id="@+id/nav_share_it"
+        android:name="com.example.quickfeet.ui.share.ShareFragment"
+        android:label="Share It"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_edit_profile"
+        android:name="com.example.quickfeet.ui.profile.EditProfileFragment"
+        android:label="Edit Profile"
+        tools:layout="@layout/activity_edit_profile" />
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.example.quickfeet.ui.running.RunningHistoryFragment"
+        android:label="History"
+        tools:layout="@layout/activity_running_history" />
+    <fragment
+        android:id="@+id/nav_workout_manager"
+        android:name="com.example.quickfeet.ui.workout_manager.WorkoutManagerFragment"
+        android:label="Workout Manager"
+        tools:layout="@layout/fragment_workout_manager" />
+
+</navigation>

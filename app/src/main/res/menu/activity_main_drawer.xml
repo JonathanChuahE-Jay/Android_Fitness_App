@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/nav_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_workout_manager"
+            android:icon="@drawable/nav_profile"
+            android:title="Workout Manager" />
+        <item
+            android:id="@+id/nav_bmi_calculator"
+            android:icon="@drawable/nav_bmi"
+            android:title="BMI Calculator" />
+        <item
+            android:id="@+id/nav_progress_tracker"
+            android:icon="@drawable/ic_progress"
+            android:title="Progress Tracker" />
+        <item
+            android:id="@+id/nav_running_tracker"
+            android:icon="@drawable/ic_running"
+            android:title="Running Tracker" />
+        <item
+            android:id="@+id/nav_share_it"
+            android:icon="@drawable/ic_share"
+            android:title="Share It" />
+    </group>
+</menu>

@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="56dp">
+
+    <LinearLayout
+        android:id="@+id/difficultySelectionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvWorkoutManagerTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select a Difficulty Level"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/btnBeginner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Beginner" />
+
+        <Button
+            android:id="@+id/btnIntermediate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Intermediate" />
+
+        <Button
+            android:id="@+id/btnProfessional"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Professional" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/workoutGridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <GridLayout
+            android:id="@+id/dayGridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="5"
+            android:padding="10dp" />
+    </ScrollView>
+
+</LinearLayout>
